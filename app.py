@@ -11,6 +11,7 @@ import json
 import pickle
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Input
+nltk.download("punkt")
 
 # تحميل بيانات الانتنت
 with open('intents.json') as file:

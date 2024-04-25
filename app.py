@@ -2,6 +2,8 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import nltk
+nltk.download('punkt')
+
 from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
 import numpy
